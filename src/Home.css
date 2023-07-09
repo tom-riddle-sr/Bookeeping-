@@ -1,0 +1,94 @@
+/* 全域適用--------------------------- */
+@font-face {
+  font-family: 'GenSenRounded TW';
+  src: url('./media/GenSenRounded-M.ttc') format('truetype');
+}
+
+* {
+  font-family: 'GenSenRounded TW';
+  color: rgba(75, 74, 74, 1);
+}
+
+button {
+  border: none;
+}
+
+.bg_gray {
+  background-color: rgba(75, 74, 74, 1);
+}
+
+.bg_green {
+  background-color: rgba(33, 217, 63, 1);
+}
+
+.bg_yellow {
+  background-color: rgba(234, 202, 31, 1);
+}
+.text_gray {
+  color: rgba(75, 74, 74, 1);
+}
+
+.text_green {
+  color: rgba(33, 217, 63, 1);
+}
+
+.text_yellow {
+  color: rgba(234, 202, 31, 1);
+}
+.text_white {
+  color:white;
+}
+.disappear{
+  display:none;
+}
+/* 全域適用--------------------------- */
+/* head------------------------------- */
+.headbox {
+  position: relative;
+}
+
+/* head-plusbox----------------------- */
+.plusbox {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  background: white;
+  border: 1px solid rgba(75, 74, 74, 1);
+  z-index: 1;
+}
+
+/* head-plusbox----------------------- */
+/* head-minusbox---------------------- */
+.minusbox {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  background:white;
+  z-index: 1;
+}
+
+/* head-minusbox---------------------- */
+/* head------------------------------- */
+/* total------------------------------ */
+/* total------------------------------ */
+/* main------------------------------- */
+.main_button_box>* {
+  margin: 0px 2%;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.main_button_box>:nth-child(1) {
+  background-color: rgba(75, 74, 74, 1);
+}
+
+.main_button_box>:nth-child(2) {
+  background-color: rgba(33, 217, 63, 1);
+}
+
+.main_button_box>:nth-child(3) {
+  background-color: rgba(234, 202, 31, 1);
+}
+
+/* main------------------------------- */
