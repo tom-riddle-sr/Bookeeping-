@@ -7,6 +7,35 @@ import "bootstrap/dist/css/bootstrap.css"
 import axios from 'axios';
 
 function App() {
+  const fakedata=[{
+    id: 2,
+    name: '撿到錢',
+    shop: null,
+    price: '31',
+    today_date: '2023-06-25',
+    note: '',
+    symbol: '+'
+  },
+ 
+  {
+    id: 4,
+    name: '早餐',
+    shop: '小覓蔬',
+    price: '100',
+    today_date: '2023-06-21',
+    note: '',
+    symbol: '-'
+  },
+  
+  {
+    id: 4,
+    name: '7月股票股利',
+    shop: null,
+    price: '2100',
+    today_date: '2023-06-14',
+    note: '大立光',
+    symbol: '+'
+  }]
   // 一開始就取得input資料
   const [database_data, set_database_data] = useState([]);
   const [account_plus_data, set_account_plus_data] = useState([]);
@@ -127,7 +156,7 @@ function App() {
         set_end_date={set_end_date}
       />
 
-      {render_data.map(({ id, name, shop, price, today_date, note, symbol }) => (
+      {fakedata.map(({ id, name, shop, price, today_date, note, symbol }) => (
         <Main
           key={id}
           id={id}

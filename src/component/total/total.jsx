@@ -110,7 +110,8 @@ const Total = (props) => {
       </div>
       <div className='col-9 row p-5 d-flex flex-column '>
         <div className=' text-center'>
-          <h1 className={`${change_text_color}`}>${props.render_price}</h1>
+          {/* <h1 className={`${change_text_color}`}>${props.render_price}</h1> */}
+          <h1 className={`${change_text_color}`}>$2031</h1>
         </div>
         <div className=' d-flex justify-content-center text-center '>
           <h5>開始日期:</h5>
